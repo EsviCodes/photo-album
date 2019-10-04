@@ -9,7 +9,6 @@ export default class App extends React.Component {
     return (
       <Provider store={store}>
         <div className="App">
-          <h1>Photo Album</h1>
           <AlbumsListContainer />
         </div>
       </Provider>
